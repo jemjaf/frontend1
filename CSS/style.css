@@ -5,15 +5,20 @@ selector {
 */
 
 .Titulo {
-    color: #2b0370;
+    color: #eb3b00;
+    font-size: 2em;
 }
 
-h1 {
-    color: #ffe600;
+.contact-form {
+    background-color: #000000;
 }
-h2 {
-    color: #3cff00;
+
+.contact-form__label{
+    color: #36a1ff;
+    font-size: 2em;
 }
-h3 {
-    color: #ff0019;
+
+.contact-form__input{
+    color: #00ff00;
+    font-size: 2em;
 }
