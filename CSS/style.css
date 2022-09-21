@@ -10,12 +10,14 @@ selector {
 }
 
 .contact-form {
-    background-color: #000000;
+    background-color: #86a3f7;
 }
 
 .contact-form__label{
-    color: #36a1ff;
+    color: #000000;
     font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
 }
 
 .contact-form__input{
