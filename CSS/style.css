@@ -4,26 +4,27 @@ selector {
 }
 */
 
-/* .Titulo {
+.Titulo {
     color: #eb3b00;
     font-size: 2em;
 }
 
 .contact-form {
-    background-color: #86a3f7;
+    margin:auto;
+
 }
 
 .contact-form__label{
     color: #000000;
-    font-size: 2em;
+    font-size: 1em;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 800;
-} */
+    font-weight: 200;
+}
 
-/* .contact-form__input{
+.contact-form__input{
     color: #00ff00;
-    font-size: 2em;
-} */
+    font-size: 1em;
+}
 
 
 
