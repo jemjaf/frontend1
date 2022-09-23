@@ -4,9 +4,22 @@
     margin: 40px auto;
     text-align: center;
   }
+
+  .label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+  }
 button {
     margin: 20px;
   }
+
+img {
+  width: 37em;
+  margin: -4em 0% 0% 1%;
+  padding-top: 4em;
+  display: inline-flex;
+  align-items: center;
+}
 
 .BotonCool {
 
@@ -91,21 +104,43 @@ button {
     width: 100%;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .frame {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+  .article {
+    margin: 5% 15% 5% 15%;
+  }
+  .form {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 400px;
+    margin: 1% auto 1%;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10%;
+  }
+  .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  body {
+    background: #76b852; /* fallback for old browsers */
+    background: rgb(141,194,111);
+    background: linear-gradient(90deg, rgba(141,194,111,1) 0%, rgba(118,184,82,1) 50%);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;      
+  }
