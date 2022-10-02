@@ -8,7 +8,7 @@ function cargarJson1() {
 async function cargarJson2() {
     let respuesta = await fetch('https://jsonplaceholder.typicode.com/todos/1')
     let json = await respuesta.json();
-    alert(json.title)
+    jsonCargado(json);
 }
 
 function jsonCargado(json) {

@@ -9,6 +9,12 @@ setInterval(() => {
     if (hora12>12) {
         hora12 -= 12;
     }
+    if (hora24<10) {
+        hora24 = "0"+hora24;
+    }
+    if (hora12<10) {
+        hora12 = "0"+hora12;
+    }
     var minuto = tiempoActual.getMinutes();
     if (minuto<10) {
         minuto = "0"+minuto;
